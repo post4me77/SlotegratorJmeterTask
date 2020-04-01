@@ -1,0 +1,13 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1585737241030,663,Access Token Request,200,OK,Thread Group 1-1,text,true,,939,341,1,1,http://test-api.d6.dev.devcaz.com/v2/oauth2/token,661,0,438
+1585737241730,7550,Register a new player,201,Created,Thread Group 1-1,text,true,,1227,1080,1,1,http://test-api.d6.dev.devcaz.com/v2/players,7550,0,0
+1585737249280,2153,Get a single player profile,404,Not Found,Thread Group 1-1,text,false,,1014,829,1,1,http://test-api.d6.dev.devcaz.com/v2/players/6086,2152,0,136
+1585737251437,612,Retrieving games collection with sorting by name,200,OK,Thread Group 1-1,text,true,,1124,832,1,1,http://test-api.d6.dev.devcaz.com/v2/games?sort=name,612,0,117
+1585737252050,300,Retrieving games collection,200,OK,Thread Group 1-1,text,true,,1114,822,1,1,http://test-api.d6.dev.devcaz.com/v2/games,300,0,0
+1585737252354,347,Retrieving games collection with sorting by name,200,OK,Thread Group 1-1,text,true,,1124,832,1,1,http://test-api.d6.dev.devcaz.com/v2/games?sort=name,347,0,0
+1585737252702,316,Retrieving games collection,200,OK,Thread Group 1-1,text,true,,1114,822,1,1,http://test-api.d6.dev.devcaz.com/v2/games,316,0,0
+1585737253019,325,Retrieving games collection with sorting by name,200,OK,Thread Group 1-1,text,true,,1124,832,1,1,http://test-api.d6.dev.devcaz.com/v2/games?sort=name,325,0,0
+1585737253344,335,Retrieving games collection,200,OK,Thread Group 1-1,text,true,,1114,822,1,1,http://test-api.d6.dev.devcaz.com/v2/games,335,0,0
+1585737253682,417,Retrieving games collection with sorting by name,200,OK,Thread Group 1-1,text,true,,1124,832,1,1,http://test-api.d6.dev.devcaz.com/v2/games?sort=name,417,0,114
+1585737254100,256,Retrieving games collection,200,OK,Thread Group 1-1,text,true,,1114,822,1,1,http://test-api.d6.dev.devcaz.com/v2/games,256,0,0
+1585737254356,401,Retrieving game from collection by ID,404,Not Found,Thread Group 1-1,text,false,,1014,827,1,1,http://test-api.d6.dev.devcaz.com/v2/games/6086,401,0,0
